@@ -1,0 +1,51 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+button {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(228, 224, 224);
+}
+
+button:disabled{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.prev-button {
+  position: relative;
+  left: 35px;
+}
+
+.next-button {
+  position: relative;
+  right: 35px;
+}
+
+#carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+  background-color: #fff;
+  position: relative;
+  top: -30px;
+}
